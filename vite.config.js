@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/tasty-burger/", // <-- adjust to your repo name
-  // build: {
-  //   outDir: "dist",
-  // },
+  build: {
+    outDir: "dist",
+  },
 });
